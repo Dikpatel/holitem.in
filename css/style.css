@@ -1,0 +1,100 @@
+.con_tainer{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #2f3091;
+}
+.section_one, .section_three {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+.section_one .one_item h1{
+    padding-top: 20px;
+font-size: 38px;
+color: #fff;
+font-family: "Playfair Display", serif;
+letter-spacing: 3px;
+}
+
+.section_one .one_item p{
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-weight: 300;
+    margin-top: -15px;
+}
+
+.section_one .one_item img {
+    width: 80%;
+}
+
+/* section two */
+
+.section_two{
+    padding: 20px 0px;
+}
+.section_two .two_item h1{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'playfair Display';
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+/* section three */
+
+.section_three{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.section_three img{
+    width: 100%;
+}
+.section_three .three_one, .section_three .three_two{
+  width: 48%;
+}
+
+.section_three .three_one h1{
+    font-size: 22px;
+    color: #FED77D;
+    font-family: 'playfair Display';
+    text-align: right;
+}
+.section_three .three_two h1{
+    font-size: 22px;
+    color: #FED77D;
+    font-family: 'playfair Display';
+    text-align: left;
+}
+
+
+.section_four{
+    padding: 20px 0px;
+}
+.section_four .four_item h1{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'playfair Display';
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.section_five .five_item a{
+    background: #C00060;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: 'playfair Display';
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+
+.section_five .five_item{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    
+}
